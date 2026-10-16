@@ -2,7 +2,6 @@
 
 RivalTrack is a machine-learning project for collecting and analyzing e-commerce product reviews. Its goal is to support sentiment analysis and aspect/defect analysis through a review-scraping pipeline, text preprocessing, machine-learning models, and an interactive Streamlit dashboard.
 
-> **Current repository status:** The latest commit history shows work on the NLP pipeline, asynchronous live review scraping, and Layer 1 ensemble training with 5-fold out-of-fold (OOF) predictions. A Layer 2 meta-learner and several advanced dashboard features remain on the roadmap. Update this README as implementation and validation progress.
 
 ## Features
 
@@ -25,7 +24,7 @@ RivalTrack is a machine-learning project for collecting and analyzing e-commerce
 
 ### Dashboard
 - **Streamlit interface:** `app.py` is the dashboard entry point.
-- The project description includes a single-sentence test console, preprocessing inspection, corpus metrics, and defect-distribution visualizations. Confirm each view against the current implementation before presenting it as production-ready.
+- The project includes a single-sentence test console, preprocessing inspection, corpus metrics, and defect-distribution visualizations. Confirm each view against the current implementation before presenting it as production-ready.
 
 ## Repository Structure
 
